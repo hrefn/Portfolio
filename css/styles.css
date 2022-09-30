@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background-color: darkgrey;
+  background-color: rgb(84, 84, 84);
 
 }
 
@@ -92,6 +92,17 @@ header {
   padding-top: 100px;
   width: 40%;
   margin: auto;
+  background-color: darkgray;
+  padding: 25px 50px;
+  box-shadow: 10px 10px 5px #222;
+}
+
+.about > * {
+  background-color: darkgray;
+}
+
+.tech-list > * {
+  background-color: darkgray;
 }
 
 .about h1 {
@@ -122,6 +133,11 @@ header {
 .tech-list-element {
   color: rgb(74, 74, 241);
   font-weight: bold;
+  background-color: darkgray;
+}
+
+.tech-list-element b {
+  background-color: darkgray;
 }
 
 .portfolio-container {
@@ -145,35 +161,53 @@ header {
 .mfangular-image {
   height: auto;
   width: auto;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.react-native-image {
+  height: auto;
+  width: auto;
   max-height: 400px;
   max-width: 400px;
 }
 
-.project-image {
-  height: 250px;
-  width: 250px;
-  background-color: black;
-  flex-shrink: 0;
+.pokedex-image {
+  height: auto;
+  width: auto;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+#react-native {
+  width: 50%;
 }
 
 .description-container {
-  border: 2px solid darkgray;
+  border: 10px solid darkgray;
+  background-color: darkgray;
+  border-radius: 2px;
+  box-shadow: 10px 10px 5px #222;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: auto;
 }
 
 .description-container h1 {
   padding-left: 15px;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  background-color: darkgray;
 }
 
 .project footer {
   padding-left: 25px;
+  background-color: darkgray;
 }
 
 .tech-list-footer {
   list-style: none;
+  background-color: darkgray;
 }
 
 .tech-list-footer > li {
@@ -181,23 +215,27 @@ header {
   margin-right: 20px;
   color: rgb(74, 74, 241);
   font-weight: bold;
+  background-color: darkgray;
 }
 
 .project-description {
   width: 100%;
   padding-left: 25px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
+  background-color: darkgray;
 }
 
 .link-button-container {
   display: flex;
   flex-direction: row-reverse;
   margin-right: 10px;
+  background-color: darkgray;
 }
 
 .project-link-button {
   height:  60px;
   margin-right: 10px;
+  background-color: darkgray;
 }
 
 .btn {
@@ -226,17 +264,28 @@ header {
 
 .contact-container {
   padding-top: 75px;
-  height: 50vh;
+  padding-bottom: 225px;
 }
 
 .contact {
   margin: auto;
   width: 25%;
   text-align: center;
+  padding: 25px;
 }
 
-.reach-out {
-  margin-bottom: 15px;
+.contact-box {
+  padding: 50px 75px;
+  background-color: darkgray;
+  box-shadow: 10px 10px 5px #222;
+}
+
+.contact-box > * {
+  background-color: darkgray;
+}
+
+.contact-box p {
+  margin-bottom: 20px;
 }
 
 .footer {
