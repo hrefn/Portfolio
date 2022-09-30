@@ -81,12 +81,7 @@ header {
   text-decoration: none;
 }
 
-.github-icon {
-  width: 32px;
-  height: 32px;
-}
-
-.linkedin-icon {
+.icon {
   width: 32px;
   height: 32px;
 }
@@ -116,14 +111,6 @@ header {
   font-size: 3rem;
   border-bottom: 1px solid black;
   margin-bottom: 15px
-}
-
-.about img {
-  float: right;
-  border-radius: 50%;
-  background-color: green;
-  height: 150px;
-  width: 150px;
 }
 
 .about p {
@@ -303,6 +290,7 @@ header {
 
 .footer a {
   background-color: rgb(74, 74, 241);
+  text-decoration: none;
 }
 
 .footer a img {
