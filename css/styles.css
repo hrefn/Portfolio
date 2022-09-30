@@ -62,8 +62,15 @@ header {
   transform: translate(-50%, -50%);
 }
 
-.intro p {
+.name {
+  text-align: center;
   font-size: 3rem;
+}
+
+.intro-subtext {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px
 }
 
 .social {
@@ -290,7 +297,7 @@ header {
 
 .footer {
   text-align: center;
-  padding-top: 15px;
+  padding: 10px;
   background-color: rgb(74, 74, 241);
 }
 
